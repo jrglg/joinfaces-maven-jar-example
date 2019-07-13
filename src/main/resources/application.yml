@@ -4,12 +4,12 @@ joinfaces:
     FACELETS_LIBRARIES: /tags/tags.taglib.xml
   primefaces:
     theme: overcast
-  version: @joinfaces.version@
+  version: '@joinfaces.version@'
 spring-boot:
-  version: @project.parent.version@
+  version: '@project.parent.version@'
 tomcat:
-  version: @tomcat.version@
+  version: '@tomcat.version@'
 jetty:
-  version: @jetty.version@
+  version: '@jetty.version@'
 undertow:
-  version: @undertow.version@
+  version: '@undertow.version@'
